@@ -1,3 +1,7 @@
 # CRANET_test
 
-WindowsPCに.NET環境入れて.slnファイルを起動
+単体で動かす場合はWindowsPCでbin->Release->CRANET_test.exeを実行
+デフォルトでTX側ポート、RX側ポートのCOM名が入っているが自分のPCのポートに書き換えてオープンを押すと接続される
+テスト用なのでエラー処理などほとんど入れていない
+
+デバックする場合はWindowsPCに.NET環境入れて.slnファイルを起動
